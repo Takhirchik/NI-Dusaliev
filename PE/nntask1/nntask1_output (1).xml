@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph>
+    <vertex>v1</vertex>
+    <vertex>v2</vertex>
+    <vertex>v3</vertex>
+    <arc>
+        <from>v1</from>
+        <to>v2</to>
+        <order>2</order>
+    </arc>
+    <arc>
+        <from>v3</from>
+        <to>v2</to>
+        <order>1</order>
+    </arc>
+    <arc>
+        <from>v2</from>
+        <to>v3</to>
+        <order>1</order>
+    </arc>
+    <arc>
+        <from>v3</from>
+        <to>v1</to>
+        <order>1</order>
+    </arc>
+</graph>
