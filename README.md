@@ -1,5 +1,6 @@
 # NI-Dusaliev
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Нейронные+сети+Дусалиев)](https://git.io/typing-svg)
+
 Файлы заданий для запуска с тестами находятся в директории PE/nntask[n], где n - номер задания
 ## Задание 1
 Запуск программы:
