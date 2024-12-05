@@ -3,7 +3,7 @@
 
 Файлы заданий для запуска с тестами находятся в директории PE/nntask[n], где n - номер задания
 ## Задание 1
-Тесты:
+### Тесты:
 *nntask1_input (1).txt*
 ```
 (v1, v2 ,  2)
@@ -30,7 +30,7 @@
 (v2,v5,2)
 ```
 
-Запуск программы:
+### Запуск программы:
 ```
 nntask1.exe input="nntask1_input (1).txt" output="nntask1_output (1).xml" ---> Успешный
 nntask1.exe input="nntask1_input (2).txt" output="nntask1_output (2).xml" ---> Ошибочный
@@ -38,7 +38,7 @@ nntask1.exe input="nntask1_input (3).txt" output="nntask1_output (3).xml" ---> �
 ```
 
 ## Задание 2
-Тесты:
+### Тесты:
 *nntask1_output (1).xml*
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,14 +126,14 @@ nntask1.exe input="nntask1_input (3).txt" output="nntask1_output (3).xml" ---> �
 </graph>
 ```
 
-Запуск программы:
+### Запуск программы:
 ```
 nntask2.exe input="nntask1_output (1).xml" output="nntask2_output (1).txt" ---> Ошибочный
 nntask2.exe input="nntask1_output (3).xml" output="nntask2_output (3).txt" ---> Успешный
 ```
 
 ## Задание 3
-Тесты:
+### Тесты:
 *nntask1_output (3).xml*
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -201,13 +201,13 @@ v5:*
 v6:*
 ```
 
-Запуск программы:
+### Запуск программы:
 ```
 nntask3.exe input1="nntask1_output (3).xml" input2="nntask3_input2 (3).txt" output="nntask3_output (3).txt" ---> Успешный
 ```
 
 ## Задание 4
-Тесты:
+### Тесты:
 *nntask4_input_1.txt*
 ```
 [[0.2, 0.3, 0.9, 0.4], [0.7, 0.3, 0.1, 0.5], [0.6, 0.1, 0.2, 0.9], [0.3, 0.3, 0.3, 0.3], [0.0, 0.5, 1.0, 0.6]]
@@ -218,13 +218,13 @@ nntask3.exe input1="nntask1_output (3).xml" input2="nntask3_input2 (3).txt" outp
 [5.81, 3.71, 6.21, 9.2]
 ```
 
-Запуск программы:
+### Запуск программы:
 ```
 nntask4.exe input1=nntask4_input_1.txt input2=nntask4_input_2.txt output=nntask4_output.json ---> Успешный
 ```
 
 ## Задание 5
-Тесты:
+### Тесты:
 *nntask5_input_1.json*
 ```
 {
@@ -271,7 +271,7 @@ nntask4.exe input1=nntask4_input_1.txt input2=nntask4_input_2.txt output=nntask4
 }
 ```
 
-Запуск программы:
+### Запуск программы:
 ```
 nntask5.exe input1=nntask5_input_1.json input2=nntask5_input_2.json input3=nntask5_input_3.json output=nntask5_output.txt ---> Успешный
 ```
