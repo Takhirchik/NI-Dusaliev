@@ -275,5 +275,4 @@ nntask4.exe input1=nntask4_input_1.txt input2=nntask4_input_2.txt output=nntask4
 ```
 nntask5.exe input1=nntask5_input_1.json input2=nntask5_input_2.json input3=nntask5_input_3.json output=nntask5_output.txt ---> Успешный
 ```
-
-[![HitCount](https://hits.dwyl.com/Takhirchik/NI-Dusaliev.svg?style=flat-square)](http://hits.dwyl.com/Takhirchik/NI-Dusaliev)
+  [![HitCount](https://hits.dwyl.com/Takhirchik/NI-Dusaliev.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Takhirchik/NI-Dusaliev)
